@@ -62,7 +62,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
+    "teams:start": "gatsby develop -p 8080 --host 0.0.0.0"
   },
   "repository": {
     "type": "git",
