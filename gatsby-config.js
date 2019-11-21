@@ -23,7 +23,17 @@ module.exports = {
             },
           },
         },
-        plugins: ["gatsby-tinacms-git", "gatsby-tinacms-remark"],
+        plugins: [
+          {
+            resolve: "gatsby-tinacms-git",
+            options: {
+              defaultCommitMessage: "Update from Tina",
+              defaultCommitName: "DJ",
+              defaultCommitEmail: "dj@forestry.io",
+            }
+          },
+          "gatsby-tinacms-remark"
+        ],
       },
     },
     {
